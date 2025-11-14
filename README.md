@@ -1,6 +1,6 @@
 <img src="./assets/project.png" width="100%" height="450px" />
 
-#📱 BudgetApp — Smart Budget Management App with React Native Expo and Clerk
+📱 BudgetApp — Smart Budget Management App with React Native Expo and Clerk
 
 BudgetWise is a modern, intuitive, and secure budget-tracking mobile application designed to help users take full control of their financial life. Built with React Native (Expo) and powered by a robust Node.js + Express backend, the app allows users to seamlessly manage income, expenses, and daily transactions while enjoying a clean and friendly interface.
 
