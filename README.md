@@ -1,4 +1,4 @@
-<img src="./assets/project.png" width="100%" height="250px" />
+<img src="./assets/project.png" width="100%" height="450px" />
 
 # React Native Budget management app
 
