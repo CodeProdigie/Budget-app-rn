@@ -1,52 +1,105 @@
 <img src="./assets/project.png" width="100%" height="450px" />
 
-# React Native Budget management app
+#📱 BudgetApp — Smart Budget Management App with React Native Expo and Clerk
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+BudgetWise is a modern, intuitive, and secure budget-tracking mobile application designed to help users take full control of their financial life. Built with React Native (Expo) and powered by a robust Node.js + Express backend, the app allows users to seamlessly manage income, expenses, and daily transactions while enjoying a clean and friendly interface.
 
-## Get started
+The application provides a smooth and visually appealing experience—allowing users to create an account, sign in, verify their email, add transactions, view recent activity, and track their financial health in real time.
 
-1. Install dependencies
+🚀 Core Features
+🔐 Secure Authentication
 
-   ```bash
-   npm install
-   ```
+Authentication powered by Clerk for safe login, registration, and session handling.
 
-2. Start the app
+Email verification ensures an additional security layer before accessing the dashboard.
 
-   ```bash
-   npx expo start
-   ```
+💰 Income & Expense Tracking
 
-In the output, you'll find options to open the app in a
+Add transactions by selecting:
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Expense
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Income
 
-## Get a fresh project
+Choose from categories such as Food & Drinks, Shopping, Transportation, Entertainment, Bills, and more.
 
-When you're ready, run:
+📊 Real-Time Dashboard
 
-```bash
-npm run reset-project
-```
+View your current balance, total income, and total expenses instantly.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+Beautiful transaction list showing:
 
-## Learn more
+Amounts
 
-To learn more about developing your project with Expo, look at the following resources:
+Categories
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Type (Income/Expense)
 
-## Join the community
+Date and description
 
-Join our community of developers creating universal apps.
+🗂️ Recent Transactions
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Automatic sorting of all recent activities.
+
+Icons and colors help differentiate between transaction types.
+
+🧭 Clean & User-Friendly UI
+
+Warm color palette with financial-themed illustrations.
+
+Simple, modern design with clear typography for easy readability.
+
+🛠️ Tech Stack
+📌 Backend
+
+Built with a lightweight but powerful setup:
+
+Node.js
+
+Express.js
+
+Mongoose (MongoDB ORM)
+
+MongoDB (database)
+
+dotenv for environment configuration
+
+CORS for secure cross-origin communication
+
+The backend handles:
+
+User data
+
+Transaction storage
+
+CRUD operations for income/expense records
+
+Authentication session validation (via Clerk API)
+
+📱 Mobile App
+
+Designed using:
+
+React Native with Expo
+
+Clerk Authentication
+
+Context API for managing state and API actions
+
+Fetch-based API integration connected to the backend
+
+Responsive UI optimized for both iOS and Android
+
+🎯 Purpose of the App
+
+BudgetWise helps users:
+
+Track and organize their financial activities
+
+Understand spending habits
+
+Improve financial discipline
+
+Easily manage income and expenses daily
+
+Whether it’s managing salary, transportation costs, shopping, entertainment, or bills, BudgetWise provides a simple yet powerful solution to keep your finances healthy.
